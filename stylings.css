@@ -128,3 +128,11 @@ label {
     height: 45px;
     padding: 0 20px;
 }
+
+#disclosure {
+    text-align: center;
+    font-size: .8em;
+    width: 330px;
+    margin: auto;
+    line-height: 1.5em;
+}

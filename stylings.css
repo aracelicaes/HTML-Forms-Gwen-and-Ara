@@ -33,3 +33,28 @@ nav a{
     height: 34px;
     padding: 0 20px;
 }
+
+header {
+    text-align: center;
+    margin-top: 10%;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #8D9096;
+    margin-right: 15px;
+    font-size: 15pt;
+    font-weight: lighter;
+}
+
+div a img {
+    vertical-align: middle;
+}
+

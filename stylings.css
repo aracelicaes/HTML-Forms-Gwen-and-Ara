@@ -64,10 +64,14 @@ div a img {
     justify-content: center;
 }
 
+#infoDiv{
+    text-align: center;
+}
+
 fieldset{
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 input{
-    width: 250px;
+    width: 335px;
 }

@@ -59,7 +59,7 @@ div a img {
 
 #form{
     width: 500px;
-    margin: auto;
+    margin: 30px auto auto auto;
     display: flex;
     justify-content: center;
 }
@@ -75,10 +75,46 @@ div a img {
     margin-bottom: 10px;
 }
 
+#infoDiv span {
+    font-size: 18pt;
+    color: rgb(87, 85, 85);
+}
+
+#infoDiv div {
+    font-size: .85em;
+    color: rgb(87, 85, 85);
+}
+
+#infoDiv a {
+    font-size: .8em;
+    text-decoration: none;
+}
+
+
 fieldset{
     margin-left: 25px;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #C7C7C7;
+    border-radius: 4px;
 }
 
 input{
     width: 335px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #C7C7C7;
+    margin-top: 10px;
+    margin-bottom: 40px; 
+}
+
+label {
+    color: rgb(87, 85, 85);
+}
+
+#phoneInfo {
+    position: absolute;
+    margin-top: -35px;
+    font-size: 8pt;
+    color: rgb(87, 85, 85);
 }

@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ECEEF1;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
     height: 40px;
@@ -15,15 +15,15 @@ nav{
     margin-right: 40px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
 }
 
-#signInInfo p{
+#signInInfo p {
     margin: 5px 10px;
 }
 
-#signInButton{
+#signInButton {
     border-radius: 4px;
     background-color: #0077C5;
     border: 1px solid #4c4c4c;
@@ -57,20 +57,20 @@ div a img {
     vertical-align: middle;
 }
 
-#form{
+#form {
     width: 500px;
     margin: 30px auto auto auto;
     display: flex;
     justify-content: center;
 }
 
-#infoDiv{
+#infoDiv {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-#infoDiv *{
+#infoDiv * {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -91,7 +91,7 @@ div a img {
 }
 
 
-fieldset{
+fieldset {
     margin-left: 25px;
     background-color: white;
     padding: 25px;
@@ -99,13 +99,13 @@ fieldset{
     border-radius: 4px;
 }
 
-input{
+input {
     width: 335px;
     height: 30px;
     border-radius: 5px;
     border: 1px solid #C7C7C7;
     margin-top: 10px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 label {
@@ -138,11 +138,11 @@ label {
     color: rgb(87, 85, 85);
 }
 
-#disclosure a{
+#disclosure a {
     text-decoration: none;
 }
 
-footer{
+footer {
     width: 100%;
     text-align: center;
     font-size: .8em;
@@ -152,13 +152,13 @@ footer{
     margin-bottom: 50px;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: rgb(87, 85, 85);
     margin-right:5px;
     margin-left: 5px;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
 }

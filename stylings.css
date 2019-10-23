@@ -7,7 +7,7 @@ nav {
   display: flex;
   flex-direction: row;
   height: 40px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 10px;
   justify-content: flex-end;
   margin-top: 10px;
@@ -42,6 +42,17 @@ header div {
   flex-direction: row;
   justify-content: center;
   margin-left: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(87, 85, 85);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 header div a {
@@ -80,15 +91,14 @@ div a img {
 }
 
 #infoDiv div {
-  font-size: .85em;
+  font-size: 0.85em;
   color: rgb(87, 85, 85);
 }
 
 #infoDiv a {
-  font-size: .8em;
+  font-size: 0.8em;
   text-decoration: none;
 }
-
 
 fieldset {
   margin-left: 25px;
@@ -130,7 +140,7 @@ label {
 
 #disclosure {
   text-align: center;
-  font-size: .8em;
+  font-size: 0.8em;
   width: 330px;
   margin: auto;
   line-height: 1.5em;
@@ -144,20 +154,9 @@ label {
 footer {
   width: 100%;
   text-align: center;
-  font-size: .8em;
+  font-size: 0.8em;
   color: rgb(87, 85, 85);
   margin-top: 20px;
   line-height: 18px;
   margin-bottom: 50px;
-}
-
-footer a {
-  text-decoration: none;
-  color: rgb(87, 85, 85);
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }

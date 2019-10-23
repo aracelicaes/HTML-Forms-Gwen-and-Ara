@@ -10,7 +10,7 @@
 
 ## About the project
 
-![Screenshot Image]()
+![Screenshot Image](images/screenshotFormsProject.JPG)
 
 We are Gwen and Ara. We belong to the Microverse team and built this HTML and CSS Sign up for according to the ODIN PROJECT and Microverse project specifications.
 

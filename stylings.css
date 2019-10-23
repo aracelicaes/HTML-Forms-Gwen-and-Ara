@@ -1,0 +1,162 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eceef1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  font-size: 0.8rem;
+  line-height: 10px;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#signInInfo p {
+  margin: 5px 10px;
+}
+
+#signInButton {
+  border-radius: 4px;
+  background-color: #0077c5;
+  border: 1px solid #4c4c4c;
+  color: white;
+  font-size: 1.125em;
+  height: 34px;
+  padding: 0 20px;
+}
+
+header {
+  text-align: center;
+  margin-top: 10%;
+}
+
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(87, 85, 85);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+header div a {
+  text-decoration: none;
+  color: #dd9096;
+  margin-right: 15px;
+  font-size: 15pt;
+  font-weight: lighter;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+div a img {
+  vertical-align: middle;
+}
+
+#form {
+  width: 500px;
+  margin: 30px auto auto auto;
+  display: flex;
+  justify-content: center;
+}
+
+#infoDiv {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#infoDiv * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#infoDiv span {
+  font-size: 18pt;
+  color: rgb(87, 85, 85);
+}
+
+#infoDiv div {
+  font-size: 0.85em;
+  color: rgb(87, 85, 85);
+}
+
+#infoDiv a {
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+fieldset {
+  margin-left: 25px;
+  background-color: white;
+  padding: 25px;
+  border: 1px solid #c7c7c7;
+  border-radius: 4px;
+}
+
+input {
+  width: 335px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+label {
+  color: rgb(87, 85, 85);
+}
+
+#phoneInfo {
+  position: absolute;
+  margin-top: -35px;
+  font-size: 8pt;
+  color: rgb(87, 85, 85);
+}
+
+#createAccount {
+  border-radius: 4px;
+  background-color: #0077c5;
+  border: 1px solid #4c4c4c;
+  color: white;
+  font-size: 1.125em;
+  height: 45px;
+  padding: 0 20px;
+}
+
+#disclosure {
+  text-align: center;
+  font-size: 0.8em;
+  width: 330px;
+  margin: auto;
+  line-height: 1.5em;
+  color: rgb(87, 85, 85);
+}
+
+#disclosure a {
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  color: rgb(87, 85, 85);
+  margin-top: 20px;
+  line-height: 18px;
+  margin-bottom: 50px;
+}

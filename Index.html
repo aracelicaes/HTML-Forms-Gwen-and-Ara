@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Intuit Log In Page</title>
+        <link rel="stylesheet" href="stylings.css">
+    </head>
+
+    <body>
+        <nav>
+                <div id='signInInfo'>
+                    <p>Already have an Intuit account?</p>
+                    <a href="#"><p>I forgot my User ID or Password</p></a>
+                </div>
+                <button id='signInButton'>Sign In</button>   
+        </nav>
+        
+        <main>
+            <header>
+                <img src="images/intuitLogo.JPG" alt="Intuit Logo">
+                <div>
+                    <a href="#"><img src="images/cassette24.png" alt="Mint Logo"> <span class="company">mint</span> </a>
+                    <a href="#"><img src="images/lollipop24.png" alt="Quickbooks Logo"> <span class="company">quickbooks</span> </a>
+                    <a href="#"><img src="images/wallet24.png" alt="Turbotax Logo"> <span class="company">turbotax</span> </a>
+                </div> 
+            </header>
+            
+            <form id='form'>
+                <fieldset>
+                    <div id='infoDiv'>
+                        <span>
+                            Create an Intuit account
+                        </span>
+        
+                        <div>
+                            One account for everything Intuit, including Mint.
+                        </div>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <label for='email'>Email address</label>
+                    <br>
+                    <input type='email' id='email' name='email'>
+                    <br>
+                    <label for='phone'>Phone (recommended)</label>
+                    <br>
+                    <input type='tel' id='phone' name='phone'>
+                    <br>
+                    <span id="phoneInfo">Standard call, messaging or data rates may apply.</span>
+                    <br>
+                    <label for='password'>Password</label>
+                    <br>
+                    <input type='password' id='password' name='password'>
+                    <br>
+                    <input id="createAccount" type='submit' value="Create Account">
+                    <br>
+                    <div id="disclosure">
+                        <span><i>By clicking Create account, you agree to our
+                                <a href="#">Terms</a> and have read and acknowledge 
+                                 our <a href="#">Privacy Statement.</a></i>
+                        </span>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <a href='#'>Legal</a>
+            <a href='#'>Privacy</a>
+            <a href='#'>Security</a>
+            <br>
+            <span>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+            <br>
+            <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+        </footer>
+    </body>   
+</html>

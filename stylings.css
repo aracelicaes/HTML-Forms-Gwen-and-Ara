@@ -1,10 +1,10 @@
 body {
-  font-family:  Arial,  Helvetica,  sans-serif;
-    background-color: #eceef1;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eceef1;
 }
 
 nav {
-    display: flex;
+  display: flex;
     flex-direction: row;
     height: 40px;
     font-size: .8rem;

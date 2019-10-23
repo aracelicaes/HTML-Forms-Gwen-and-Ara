@@ -51,16 +51,16 @@ footer a {
   margin-left: 5px;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
 header div a {
   text-decoration: none;
   color: #dd9096;
   margin-right: 15px;
   font-size: 15pt;
   font-weight: lighter;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 div a img {
